@@ -5,6 +5,7 @@
     $jsonArray = array();
     if ($area_id != 0) {
         /* do some stuff to get data(level 2)*/
+        /* then put the data into jsonArray */
     } else {
         echo 0;
         return;
