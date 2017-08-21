@@ -4,6 +4,7 @@ easy way to create dynamic-dropdown-list
 put code to ur program
 # what's level?
 | level 1 | level 2 |
+| ------- |:-------:|
 | north | city a |
 | western | city b |
 | eastern | city c |
