@@ -4,7 +4,7 @@ var kaiDynamicSelect = {};
 kaiDynamicSelect = ( function() {
     
     var twoLevelSelect = function (grandparentID,parentID,selfID,code,_defaultString) {
-            var defaultString = _defaultString || "選擇出生日期";
+            var defaultString = _defaultString || "defaultString";
             
             $(function() {
                 $('#'+parentID).change(function() {
@@ -40,8 +40,8 @@ kaiDynamicSelect = ( function() {
         threeLevelSelect = function (parentID,selfID,sonID,code,_defaultString={}){
             
             var defaultString = {};
-            defaultString.selfString = _defaultString.selfString || "請選擇區域";
-            defaultString.sonString = _defaultString.sonString || "請選擇城市";
+            defaultString.selfString = _defaultString.selfString || "defaultString";
+            defaultString.sonString = _defaultString.sonString || "defaultString";
 
             $(function() {
                 $('#'+parentID).change(function() {
@@ -78,7 +78,7 @@ kaiDynamicSelect = ( function() {
             });
         },
         daySelect = function (grandparentID,parentID,selfID,code,_defaultString) {
-            var defaultString = _defaultString || "選擇日期";
+            var defaultString = _defaultString || "defaultString";
             
             $(function() {
                 $('#'+parentID).change(function() {
@@ -112,7 +112,7 @@ kaiDynamicSelect = ( function() {
             });
         },
         monthSelect = function (parentID,selfID,code,_defaultString) {
-            var defaultString = _defaultString || "選擇月份";
+            var defaultString = _defaultString || "defaultString";
             
             $(function() {
                 $('#'+parentID).change(function() {
