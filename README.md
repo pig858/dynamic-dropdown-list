@@ -1,7 +1,8 @@
 # dynamic-dropdown-list
 easy way to create dynamic-dropdown-list
 # How-to
-put code to ur program
+import kaiDynamicSelect.js to your project
+and put code to ur program
 # what's level?
 | level 1 | level 2 |
 | ------- |:-------:|
